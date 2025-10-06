@@ -1,0 +1,11 @@
+int* p = &a;
+float* p = &a;
+int* p = array;
+char* p = &str[7];
+int** q = &p;
+*p = 20;
+*p = *p - 32;
+*(p + 3) += 1;
+*(p - 3) += 1;
+while (*p) { if (*p >= 'a' && *p <= 'z') *p -= 32; p++; }
+**q *= 2;
